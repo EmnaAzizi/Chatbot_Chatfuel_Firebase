@@ -1,0 +1,487 @@
+{
+  "answerCodes": {
+    "en": {
+      "I disagree": -3,
+      "I don't know": 0,
+      "I agree": 3
+    },
+    "fr": {
+      "Je désapprouve": -3,
+      "Je ne sais pas": 0,
+      "J'approuve": 3
+    }
+  },
+  "dimensions": {
+    "casualness": {
+      "label": {
+        "en": "Casualness",
+        "fr": "Décontraction"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Cautious",
+            "fr": "Précautionneux"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Impulsive",
+            "fr": "Impulsif"
+          }
+        }
+      }
+    },
+    "toughness": {
+      "label": {
+        "en": "Toughness",
+        "fr": "Fermeté"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Soft",
+            "fr": "Doux"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Tough",
+            "fr": "Ferme"
+          }
+        }
+      }
+    },
+    "independence": {
+      "label": {
+        "en": "Independence",
+        "fr": "Indépendance"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Sociable",
+            "fr": "Sociable"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Detached",
+            "fr": "Détaché"
+          }
+        }
+      }
+    },
+    "controlling": {
+      "label": {
+        "en": "Controlling",
+        "fr": "Contrôle"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Unassuming",
+            "fr": "Irresponsable"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Authoritative",
+            "fr": "Autoritaire"
+          }
+        }
+      }
+    },
+    "energy": {
+      "label": {
+        "en": "Energy",
+        "fr": "Énergie"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Passive",
+            "fr": "Passif"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Active",
+            "fr": "Actif"
+          }
+        }
+      }
+    },
+    "creativity": {
+      "label": {
+        "en": "Creativity",
+        "fr": "Créativité"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Conservative",
+            "fr": "Conservateur"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Innovative",
+            "fr": "Innovant"
+          }
+        }
+      }
+    }
+  },
+  "questions":
+  {
+    "0": {
+      "label": {
+        "en": "Takes initiatives.",
+        "fr": "Vous Prenez des initiatives."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [2, 3]
+      }
+    },
+    "1": {
+      "label": {
+        "en": "Takes care of people.",
+        "fr": "Vous vous préoccupez des personnes."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [-3, -1]
+      }
+    },
+    "2": {
+      "label": {
+        "en": "Enjoys to be alone.",
+        "fr": "Vous Appréciez la solitude."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [1, 3]
+      }
+    },
+    "3": {
+      "label": {
+        "en": "Listens more than talks.",
+        "fr": "Vous Écoutez plus que vous parlez"
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [-3, -1]
+      }
+    }
+  },
+  "analysis": {
+    "organization" : {
+      "label": {
+        "en": "Your organization",
+        "fr": "Votre organisation"
+      },
+      "description": {
+        "en": "Your approach to problem management and problem solving whether personal or interpersonal, emotional or factual.",
+        "fr": "Votre approche pour les gestions des difficultés et la résolution des problèmes qu'ils soient personnels ou interpersonnels, émotionnels ou factuels."
+      },
+      "dimensions": {
+        "casualness" : {
+          "levels": [
+            {
+              "range": [0, 3],
+              "label": {
+                "en": "Cautious",
+                "fr": "Précautionneux"
+              },
+              "keywords": {
+                "en": "attentive, cautious, deliberate, discreet, on guard, careful, prudent, reluctant, safeguarding, scrupulous, gently, suspicious, temporary, little adventurous, vigilant",
+                "fr": "alerte, attentionné, circonspect, délibéré, discret, en garde, attentif, soigneux, prudent, réticent, sauvegarde, scrupuleux, doucement, suspicieux, provisoire, peu aventureux, vigilant"
+              },
+              "description": {
+                "en": "You are likely to be practical and down-to-earth. You do not like taking risks. Slow to change, you are coherent and cautious but you are wary of the unknown. You are sometimes distracted, lack of confidence and chilly.",
+                "fr": "Vous êtes susceptible d'être pratique et terre-à-terre. Vous n'aimez pas prendre de risques. Lent à changer, vous êtes cohérent et prudent mais vous vous méfiez de l'inconnu. Vous êtes parfois distrait, en manque de confiance et frileux."
+              }
+            },
+            {
+              "range": [4, 7],
+              "label": {
+                "en": "Balanced",
+                "fr": "Équilibré"
+              },
+              "description": {
+                "en": "You take measured risks. You are open to opportunities but you remain as reliable. Although you rarely lose your head, you are eager to have change and variety. Generally, you balance your expressiveness with the control of mature emotions.",
+                "fr": "Vous prenez des risques mesurés. Vous êtes ouverts à des possibilités mais vous restez aussi fiable. Bien que vous ne perdiez rarement la tête, vous êtes désireux d'avoir du changement et de la variété. Généralement, vous équilibrez votre expressivité avec le contrôle des émotions matures."
+              }
+            },
+            {
+              "range": [8,10],
+              "label": {
+                "en": "Impulsive",
+                "fr": "Impulsif"
+              },
+              "keywords": {
+                "en": "apathetic, jaded, random, dangerous, impulsive, informal, irregular, risky, speculative, difficult, uncertain, adventurous",
+                "fr": "apathique, blasé, aléatoire, dangereux, impulsif, informel, irrégulier, risqué, spéculatif, difficile, incertain, aventureux"
+              },
+              "description": {
+                "en": "You respond enthusiastically to new possibilities. You love change and are always on the horizon, so there is a risk that you will not finish what you started. You can be impetuous and take risks. For lack of inhibition, you may be obstinate, and possibly distracted by the latest events.",
+                "fr": "Vous répondez avec enthousiasme à de nouvelles possibilités. Vous aimez le changement et cherchez toujours à l'horizon, il y a donc un risque pour que vous ne terminiez pas ce que vous avez commencé. Vous pouvez être impétueux et prendre des risques. Faute d'inhibition, vous pouvez être opiniâtre, et éventuellement distrait par les derniers évènements."
+              }
+            }
+          ]
+        },
+        "toughness": {
+          "levels": [
+            {
+              "range": [0, 3],
+              "label": {
+                "en": "Lenient approach",
+                "fr": "Approche léniente"
+              },
+              "keywords": {
+                "en": "accommodating, conforming, docile, emotional, enduring, sentimental, lenient, non-violent, patient, receptive, sensitive, sweet, reserved, understanding",
+                "fr": "accomodant, conforme, docile, émotionel, endurant, sentimental, lénient, non violent, patient, réceptif, sensible, doux, réservé, compréhensif"
+              },
+              "description": {
+                "en": "You are insightful and sensitive to people, situations and the world around you. You think about emotional situations. You may be upset and frustrated, dwelling on the consequences. You can be self-critical and distrust the motives of others.",
+                "fr": "Vous êtes perspicace et sensible au gens, des situations et le monde autour de vous. Vous pensez bien à des situations émotionelles. Vous pouvez en être bouleversé et frustré, vous attardant sur les conséquences. Vous pouvez être auto-critique et vous méfier des motivations des autres."
+              }
+            },
+            {
+              "range": [4, 7],
+              "label": {
+                "en": "Balanced",
+                "fr": "Équilibré"
+              },
+              "description": {
+                "en": "You take into account the facts and feelings. A good planner and reliable, you are also attentive, to others. You express your thoughts on the issues without blaming others. You take reasonable initiatives by yourself, while recognizing the talent of others.",
+                "fr": "Vous prenez en compte les faits ainsi les sentiments. Un bon planificateur et fiable, vous êtes également attentif, aux autres. Vous exprimez, vos pensées sur les questions sans blâmer les autres. Vous prenez des initiatives raisonnables par vous-même, tout en reconnaissant le talent des autres."
+              }
+            },
+            {
+              "range": [8,10],
+              "label": {
+                "en": "Impulsive approach",
+                "fr": "Approche impulsive"
+              },
+              "keywords": {
+                "en": "active, factual, firm, vivid, impatient, intolerant, obstinate, battler, ruthless, strong, inflexible, vigorous",
+                "fr": "actif, factuel, ferme, vif, impatient, intolérant, obstiné, batailleur, impitoyable, fort, inflexible, vigoureux"
+              },
+              "description": {
+                "en": "Solid and predictable, you are stable and well organized, efficiently using time. You may appear emotionally inexpressive - hard or cold. Rarely overcome by difficulties, because of your common sense, you are adaptable, autonomous and hardworking.",
+                "fr": "Solide et prévisible, vous êtes stable et bien organisée, utilisant efficacement le temps. Vous pouvez apparaître émotionnellement inexpressif - dur ou froid. Rarement vaincu par des difficultés, en raison de votre bon sens, vous êtes adaptable, autonome et travailleur."
+              }
+            }
+          ]
+        }
+      }
+    },
+    "interaction": {
+      "label": {
+        "en": "Your interactions",
+        "fr": "Vos intéractions"
+      },
+      "description": {
+        "en": "How you mix with people and, as far as you are with others, what influence you have.",
+        "fr": "Comment vous vous mélangez avec les gens et, dans la mesure ou vous êtes avec les autres, quelle influence vous avez."
+      },
+      "dimensions": {
+        "independence" : {
+          "levels": [
+            {
+              "range": [0, 3],
+              "label": {
+                "en": "Participatory",
+                "fr": "Participatif"
+              },
+              "keywords": {
+                "en": "accessible, affable, sociable, extrovert, familiar, fraternal, friendly, encounter, mix, open, festive",
+                "fr": "accessible, affable, sociable, extraverti, familier, fraternel, amical, rencontre, mélange, ouvert, festif"
+              },
+              "description": {
+                "en": "You are participative and cooperative. You persevere with people and maybe you need to be included. You are good and reliable, able to combine your own initiative with those of others.",
+                "fr": "Vous êtes participatif et coopératif. Vous persévérez avec les gens et peut-être avez-vous besoin d'être inclus. Vous êtes bon et fiable, susceptible de combiner votre propre initiative avec celles des autres."
+              }
+            },
+            {
+              "range": [4, 7],
+              "label": {
+                "en": "Balanced",
+                "fr": "Équilibré"
+              },
+              "description": {
+                "en": "While you enjoy the company of others, you can work alone. You keep your own interests while sharing. You mix easily with many people and you can create a balance by adapting to them quickly.",
+                "fr": "Alors que vous appréciez la compagnie des autres, vous capable de travailler seul. Vous conservez vos propres intérêts tout en partageant. Vous vous mélangez facilement avec de nombreuses personnes et vous pouvez créer un équilibre en vous adaptant à eux rapidement."
+              }
+            },
+            {
+              "range": [8,10],
+              "label": {
+                "en": "Socially detached",
+                "fr": "Socialement détaché"
+              },
+              "keywords": {
+                "en": "autonomous, free, independent, impartial, unsympathetic, unsociable, withdrawn",
+                "fr": "autonome, libre, indépendant, impartial, antipathique, insociable, retiré"
+              },
+              "description": {
+                "en": "You are inclined to be reserved and serious. At the extreme, you may be uncomfortable socially. Indifferent to others, you can sometimes seem shy, sometimes impatient or distant. You prefer your own business. Generally you are autonomous.",
+                "fr": "Vous êtes enclin à être réservé et sérieux. À l'extrême, vous pouvez être mal à l'aise socialement. Indifférent aux autres, vous pouvez parfois sembler timide, parfois impatient ou distant. Vous préférez votre propre entreprise. Généralement vous êtes autonome."
+              }
+            }
+          ]
+        },
+        "controlling": {
+          "levels": [
+            {
+              "range": [0, 3],
+              "label": {
+                "en": "Erased",
+                "fr": "Effacé"
+              },
+              "keywords": {
+                "en": "shy, humble, sweet, modest, natural, calm, sober, retirement",
+                "fr": "timide, humble, doux, modeste, naturel, calme, sobre, retraite"
+              },
+              "description": {
+                "en": "You have gentle manners. Sometimes you are reluctant and deferential. You are saying cautiously. You tend to wait to see what is happening or what is expected of you. You may lack confidence or prefer simply to do things your way.",
+                "fr": "Vous avez des manières douces. Parfois, vous êtes réticent et déférent. Vous vous affirmez avec prudence. Vous avez tendance à attendre de voir ce qui se passe ou ce qui est attendu de vous. Vous pouvez manquer de confiance ou préférez tout simplement faire les choses à votre façon."
+              }
+            },
+            {
+              "range": [4, 7],
+              "label": {
+                "en": "Balanced",
+                "fr": "Équilibré"
+              },
+              "description": {
+                "en": "You are determined without making use of force. You are positive and encouraging without being demanding. Your style is cooperative rather than dominant. You take responsibility when the situation warrants it, but you prefer to share the decisions.",
+                "fr": "Vous êtes déterminé sans faire pour autant usage de la force. Vous êtes positif et encourageant sans être exigeant. Votre style est coopératif plutôt que dominant. Vous prenez la responsabilité lorsque la situation le justifie, mais vous préférez partagze les décisions."
+              }
+            },
+            {
+              "range": [8,10],
+              "label": {
+                "en": "Authoritarian",
+                "fr": "Autoritaire"
+              },
+              "keywords": {
+                "en": "commanding, confident, decisive, determined, overbearing, manipulative, frank, ruling, simple, supervision, care",
+                "fr": "commandant, confiant, décisive, déterminé, dominateur, manipulateur, franc, au pouvoir, simple, supervision, prise en charge"
+              },
+              "description": {
+                "en": "You are competitive and take the lead. Sure of yourself, sometimes arrogant, you love responsibility. You are when you have an audience or a sequel. Assertive and impatient, you are often persuasive.",
+                "fr": "Vous êtes compétitif et prenez les devants. Sûr de vous-même, parfois arrogant, vous aimez la responsabilité. Vous êtes lorsque vous avez une audience ou une suite. Assertif et impatient, vous êtes souvent persuasif."
+              }
+            }
+          ]
+        }
+      }
+    },
+    "enthusiasm": {
+      "label": {
+        "en": "Your enthusiasm",
+        "fr": "Votre enthousiasme"
+      },
+      "description": {
+        "en": "How much effort you put into your achievements. A strong energy exists simply as a force. It must be applied effectively or it will be lost or misdirected. On the contrary, a low energy can suffice to achieve your goals satisfactorily. Creativity allows you to open your field of possibilities and find inspiration. In contrast, compliance helps you rely on what is familiar and comfortable. Both approaches can succeed, but of course, in different ways; Being on the conservative side will almost guarantee a certain accomplishment even if it will not be a brilliant success while an innovation at all goes may seem inconsistent.",
+        "fr": "Combien d'effort vous mettez dans vos réalisations. Une forte énergie existe simplement comme force. Elle doit être appliquée utilement ou elle sera perdue ou mal orientée. Au contraire, une faible énergie peut suffire pour atteindre vos objectif de manière satisfaisante. La créavitité vous permet d'ouvrir votre champs des possibles et de trouver l'inspiration. Par opposition, la conformité vous aide à vous appuyer sur ce qui est familier et confortable. Les deux approches peuvent réussir, mais bien sûr, de différentes manières; étant sur le côté conservateur sera presque garantir un certain accomplissement même s'il ne s'agira pas de réussite éclatante tandis qu'une innovation à tout va peut paraître sans consistence."
+      },
+      "dimensions": {
+        "energy": {
+          "levels": [
+            {
+              "range": [0, 3],
+              "label": {
+                "en": "Passive",
+                "fr": "Passif"
+              },
+              "keywords": {
+                "en": "calm, docile, inactive, indifferent, lethargic, soft, non-aggressive, peaceful, resigned, serene, slow, tranquil, impertubable",
+                "fr": "calme, docile, inactif, indifférent, léthargique, doux, non agressif, paisible, résigné, serein, lent, tranquille, impertubable"
+              },
+              "description": {
+                "en": "You may find it difficult to persist in a task for long. You may be distracted or take something else that seems easier. You tend to doubt. You lack your will. You may think of the possible consequences, which makes you abstain. Sometimes you can not make the effort or maybe you prefer to round off the angles and take an easier route.",
+                "fr": "Vous trouverez peut-être difficile de persister dans une tâche pour longtemps. Vous pouvez être distrait ou prendre autre chose qui semble plus facile. Vous avez tendance à douter. Vous manquez de volonté. Il se peut que vous pensez aux conséquences possibles, qui fait que vous vous abstenez. Parfois, vous ne pouvez pas faire l'effort ou peut-être préférez-vous arrondir les angles et prendre une voie plus facile."
+              }
+            },
+            {
+              "range": [4, 7],
+              "label": {
+                "en": "Balanced",
+                "fr": "Équilibré"
+              },
+              "description": {
+                "en": "You have the energy to do most things. You find a balance between action and reflection. You stay engaged in the short term but you can pressure over time. You are ambitious but not at all costs. You care what others think.",
+                "fr": "Vous avez l'énergie pour faire la plupart des choses. Vous trouvez un équilibre entre action et réflexion. Vous restez engagé à court terme mais vous pouvez la pression au fil du temps. Vous êtes ambitieux mais pas à tout prix. Vous vous souciez ce que les autres pensent."
+              }
+            },
+            {
+              "range": [8,10],
+              "label": {
+                "en": "Energetic",
+                "fr": "Énergique"
+              },
+              "keywords": {
+                "en": "acting, animate, do, engaged, enterprising, industrious, awake, intense, vigorous, bouncy",
+                "fr": "agissant, animé, faire, engagé, entreprenant, industrieux, réveillé, intense, vigoureux, plain d'entrain"
+              },
+              "description": {
+                "en": "You are impatient to achieve. You are agitated though by positive energy and commitment. You are finding ways to succeed. You are investing in projects and want to see them realized. You can be ruthless, stubborn, arrogant and aggressive.",
+                "fr": "Vous êtes impatient de réaliser. Vous êtes agité bien que par une énergie positive et un engagement. Vous repérez les moyens de réussir. Vous vous investissez sur des projets et souhaitez les voir se réaliser. Vous pouvez impitoyable, têtu, arrogant et agressif."
+              }
+            }
+          ]
+        },
+        "creativity": {
+          "levels": [
+            {
+              "range": [0, 3],
+              "label": {
+                "en": "Conformist",
+                "fr": "Conformiste"
+              },
+              "keywords": {
+                "en": "conventional, moderate, non-progressive, sober, traditional, temperate",
+                "fr": "conventionnel, classique, modéré, non progressif, sobre, traditionnel, tempéré"
+              },
+              "description": {
+                "en": "Based on the facts, you appreciate the experiences that have been proven. You are traditional, having a realistic vision of what is right. You perceive situations in a direct way and you are happy with the way things are. You like continuity, improving what you have, rather than being radical.",
+                "fr": "Basé sur les faits, vous appréciez les expériences qui ont été éprouvées. Vous êtes traditionnel, ayant une vision réaliste de ce qui est correct. Vous percevez les situations d'une manière directe et vous êtes heureux de la façon dont les choses sont. Vous aimez la continuité, l'amélioration de ce que vous avez, plutôt que d'être radicale."
+              }
+            },
+            {
+              "range": [4, 7],
+              "label": {
+                "en": "Balanced",
+                "fr": "Équilibré"
+              },
+              "description": {
+                "en": "You like to see changes but not for themselves; You want to see the reason in novelty. You will use new ideas that you will not be creating. You are perceptive but you adapt to new ideas rather than deepen them yourself. You appreciate new things or ideas for their usefulness.",
+                "fr": "Vous aimez voir des changements mais pas pour eux-même; vous voulez voir la raison dans la nouveauté. Vous utiliserez de nouvelles idées dont vous ne serez pas à l'origine. Vous êtes perspicace mais vous vous adaptez aux nouvelles idées plutôt que ne les approfondissiez vous-même. Vous appréciez les nouvelles choses ou idées pour leur utilité."
+              }
+            },
+            {
+              "range": [8,10],
+              "label": {
+                "en": "Innovative",
+                "fr": "Innovant"
+              },
+              "keywords": {
+                "en": "fresh, innovative, imaginative, inventive, modern, new, original, progressive, revolutionary",
+                "fr": "frais, novateur, imaginatif, inventif, moderne, nouveau, original, progressiste, révolutionnaire"
+              },
+              "description": {
+                "en": "You are expressive and have many interests. You are challenging the way things are. You may be idealistic and may have high standards. Your approach may be unusual. Complex, you can have strong opinions. You are critical and skeptical. You value the ideas and have them yourself.",
+                "fr": "Vous êtes expressif et avez de nombreux intérêts. Vous contestez la façon dont les choses sont. Vous pouvez être idéaliste et avez peut-être des normes élevées. Votre approche peut être inhabituelle. Complexe, vous pouvez avoir des opinions bien arrêtées. Vous êtes critique et sceptique. Vous valoriser les idées et en avez vous-même."
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
